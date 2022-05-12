@@ -1,0 +1,94 @@
+/* Reset css */
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181836;
+    font-family: 'Itim', sans-serif;
+    color: #ffa048;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+.logo {
+    width: 20%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p, .userDate {
+    font-size: 1.3rem;
+}
+
+.info {
+    width: 90%;
+    text-align: center;
+    padding-left: 20px;
+}
+
+button {
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #16163b;
+    background-color: #FF7B00;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffa048;
+    cursor: pointer;
+}
+
+.output {
+    margin: 0 25px;
+}
+
+.media {
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.illustration {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.description {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.1em;
+    line-height: 150%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
