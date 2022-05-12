@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Picture of the Day</title>
+</head>
+
+<body>
+    <header>
+        <h1>Astronomy Picture of the Day</h1>
+    </header>
+
+    <section class="info">
+        <p>Desde o dia 16 de junho de 1995, a NASA posta uma imagem (ou vídeo) diferente relacionada à astronomia, com
+            uma breve explicação escrita por uma pessoa astrônoma profissional.</p>
+        <p>Insira uma data e veja a imagem publicada pela NASA nesse dia!</p>
+        <img src="assets/img/astronaut-helmet.svg" alt="capacete de astronauta" class="logo">
+
+        <form action="#">
+            <label class="userDate" for="userDate">Data:</label>
+            <input id="userDate" class="userDate" type="date" name="date" min="" max="" required>
+            <button id="btn">Ver imagem</button>
+        </form>
+    </section>
+
+    <section class="output">
+        <h2 id="title"></h2>
+        <h3 id="imgTitle"></h3>
+        <div id="media" class="media">
+
+        </div>
+        <p id="copyright"></p>
+        <p id="description" class="description"></p>
+    </section>
+
+    <footer>
+        <p>Desenvolvido exclusivamente para fins didáticos, por Alonso Estevam | Resilia - T17</p>
+        <nav>
+            <a href="https://github.com/alonso-estevam"><img src="assets/img/github.png" alt="logo do github"></a>
+            <a href="https://www.linkedin.com/in/alonso-estevam/"><img src="./assets/img/linkedin.png"
+                    alt="logo do linkedin"></a>
+        </nav>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script src="assets/script.js"></script>
+
+</html>
